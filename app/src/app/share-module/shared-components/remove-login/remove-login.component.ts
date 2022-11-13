@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-remove-login',
+  selector: 'remove-login',
   templateUrl: './remove-login.component.html',
   styleUrls: ['./remove-login.component.scss']
 })

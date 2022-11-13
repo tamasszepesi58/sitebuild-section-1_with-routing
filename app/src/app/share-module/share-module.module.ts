@@ -20,6 +20,12 @@ import { NavigationComponent } from './shared-components/navigation/navigation.c
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [CommonModule, LoginComponent,
+    RemoveLoginComponent,
+    ProfileSmallComponent,
+    ProfileMediumComponent,
+    TableHeaderComponent,
+    NavigationComponent]
 })
 export class ShareModuleModule { }
