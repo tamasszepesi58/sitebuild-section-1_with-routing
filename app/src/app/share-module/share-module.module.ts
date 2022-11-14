@@ -4,8 +4,9 @@ import { LoginComponent } from './shared-components/login/login.component';
 import { RemoveLoginComponent } from './shared-components/remove-login/remove-login.component';
 import { ProfileSmallComponent } from './shared-components/profiles/profile-small/profile-small.component';
 import { ProfileMediumComponent } from './shared-components/profiles/profile-medium/profile-medium.component';
-import { TableHeaderComponent } from './shared-components/table-header/table-header.component';
+import { TableRowComponent } from './shared-components/table-row/table-header.component';
 import { NavigationComponent } from './shared-components/navigation/navigation.component';
+import { NavHeaderComponent } from './shared-components/nav-header/nav-header.component';
 
 
 
@@ -15,17 +16,19 @@ import { NavigationComponent } from './shared-components/navigation/navigation.c
     RemoveLoginComponent,
     ProfileSmallComponent,
     ProfileMediumComponent,
-    TableHeaderComponent,
-    NavigationComponent
+    TableRowComponent,
+    NavigationComponent,
+    NavHeaderComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [CommonModule, LoginComponent,
+    NavHeaderComponent,
     RemoveLoginComponent,
     ProfileSmallComponent,
     ProfileMediumComponent,
-    TableHeaderComponent,
+    TableRowComponent,
     NavigationComponent]
 })
 export class ShareModuleModule { }

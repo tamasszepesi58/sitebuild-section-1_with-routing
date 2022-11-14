@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'table-header',
+  selector: 'table-row',
   templateUrl: './table-header.component.html',
   styleUrls: ['./table-header.component.scss']
 })
-export class TableHeaderComponent implements OnInit {
+export class TableRowComponent implements OnInit {
 
   constructor() { }
 
