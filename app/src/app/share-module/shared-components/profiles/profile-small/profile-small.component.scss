@@ -1,0 +1,36 @@
+.profile-small {
+    margin: auto;
+    margin-top: 150px;
+    width: 300px;
+    height: 125px;
+    background: rgba(0, 102, 51, 1);
+    border-radius: 36px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        margin-top: -65px;
+        width: 128px;
+        height: 128px;
+    }
+
+    p {
+        color: rgba(255, 255, 255, 1);
+        text-align: center;
+    }
+
+    .name {
+        margin-top: 5px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .job {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
