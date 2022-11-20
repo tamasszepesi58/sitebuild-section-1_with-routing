@@ -7,14 +7,15 @@ import { ProfileSmallComponent } from './share-module/shared-components/profiles
 import { RemoveLoginComponent } from './share-module/shared-components/remove-login/remove-login.component';
 import { TableRowComponent } from './share-module/shared-components/table-row/table-header.component';
 
-
 const routes: Routes = [
-  { path: 'login', component: LoginComponent },
-  { path: 'remove-login', component: RemoveLoginComponent },
-  { path: 'table-row', component: TableRowComponent },
-  { path: 'medium-profile', component: ProfileMediumComponent },
-  { path: 'small-profile', component: ProfileSmallComponent },
-  { path: 'navigation', component: NavigationComponent },
+  { path: "login", component: LoginComponent },
+  { path: "remove-login", component: RemoveLoginComponent },
+  { path: "table-row", component: TableRowComponent },
+  { path: "medium-profile", component: ProfileMediumComponent },
+  { path: "small-profile", component: ProfileSmallComponent },
+  { path: "navigation", component: NavigationComponent },
+
+  { path: '**', redirectTo: "login" },
 ];
 
 @NgModule({

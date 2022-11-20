@@ -7,6 +7,7 @@ import { ProfileMediumComponent } from './shared-components/profiles/profile-med
 import { TableRowComponent } from './shared-components/table-row/table-header.component';
 import { NavigationComponent } from './shared-components/navigation/navigation.component';
 import { NavHeaderComponent } from './shared-components/nav-header/nav-header.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -21,6 +22,7 @@ import { NavHeaderComponent } from './shared-components/nav-header/nav-header.co
     NavHeaderComponent
   ],
   imports: [
+    RouterModule,
     CommonModule
   ],
   exports: [CommonModule, LoginComponent,
